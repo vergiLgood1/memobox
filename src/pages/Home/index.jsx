@@ -1,5 +1,6 @@
+import  Navbar  from '../../components/ui/Navbar/Navbar'
+import Button from '../Home/index'
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 
 
 const Home = () => {

@@ -1,6 +1,6 @@
 
+import Navbar from '@/components/ui/Navbar/Navbar'
 import { Routing } from '../configs'
-import Navbar from '../components/Navbar/Navbar'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
     <>
       <Routing />
       <Navbar />
-      
+
     </>
 
   )
