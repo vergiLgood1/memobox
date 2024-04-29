@@ -9,9 +9,9 @@ const Hero = () => {
                         <div className='mb-6 w-fit rounded-lg bg-base-300 px-4 py-2 font-medium text-text sm:mb-8'>
                             <p>Interactive Tutorial 🔥</p>
                         </div>
-                        <div className="text-left">
-                            <h1 className="text-5xl md:text-6xl font-bold">Lets Get Started With Memobox</h1>
-                            <p className="py-6">
+                        <div className="text-left mb-8 md:mb-0">
+                            <h1 className="text-5xl md:text-6xl font-bold">Let's Get Started With Memobox</h1>
+                            <p className="py-6 text-lg mb-8 md:mb-0">
                                 Pellen tesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Vivamus accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed suscipit tortor eget
                             </p>
                         </div>
