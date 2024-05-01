@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-200 IBMPlexMono px-0">
+      <div className="navbar bg-base-200 font-primary px-0">
         <div className="navbar-start p-0">
           <a
             href=""
@@ -41,8 +41,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end md:pr-24">
-          <div className="hidden md:flex md:flex-wrap justify-center gap-x-4 gap-y-2 pt-[0.7rem] lg:gap-x-5 lg:pt-0">
+        <div className="navbar-end md:pr-0 lg:pr-24">
+          <div className="hidden lg:flex justify-center gap-x-4 gap-y-2 pt-[0.7rem] lg:gap-x-5 lg:pt-0">
             <a className="btn btn-outline">Changelog</a>
             <a className="btn btn-outline bg-[#c7e565] hover:bg-transparent">
               <span className="text-black">Contact us</span>
@@ -78,11 +78,11 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </details> */}
-          <button className="dropdown dropdown-bottom dropdown-end md:hidden lg:hidden" >
+          <button className="dropdown dropdown-bottom dropdown-open dropdown-end lg:hidden pr-2" >
            
             <label
               role="button"
-              className="m-1 btn btn-square swap swap-rotate"
+              className="m-1 btn btn-square swap swap-rotate border border-black hover:border hover:border-black"
             >
               <input type="checkbox" />
 
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
               </svg>
             </label>
-            <ul className="mt-2 p-2 menu dropdown-content z-[1] bg-base-200 rounded-none w-[100vw] text-center justify-center items-center">
+            <ul className="mt-2 p-2 menu dropdown-content z-[1] bg-base-200 rounded-none w-[100vw] text-center justify-center items-center drop-shadow-2xl ">
               <li>
                 <a href="" className="text-base font-normal hover:bg-transparent hover:text-[#c7e565]">
                   Home

@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
     return (
         <>
-            <div className="hero py-20 md:py-36 lg:py-36 bg-base-200 rounded-b-2xl IBMPlexMono flex items-center justify-center">
-                <div className="hero-content md:max-w-full py-0 md:px-24 grid lg:grid-cols-2">
+            <div className="hero py-20 md:py-36 lg:py-36 bg-base-200 rounded-b-2xl flex items-center justify-center font-primary">
+                <div className="hero-content md:max-w-full py-0 md:px-24 grid lg:grid-cols-2 ">
                     <div>
                         <div className='mb-6 w-fit rounded-lg bg-base-300 px-4 py-2 font-medium text-text sm:mb-8'>
                             <p>Interactive Tutorial 🔥</p>
@@ -19,18 +19,18 @@ const Hero = () => {
                         <div>
                             <form action="" className="flex w-full max-w-[450px] flex-col justify-between rounded-xl bg-white p-1 shadow-lg sm:flex-row sm:rounded-2xl md:max-w-[580px]">
                                 <input onClick={() => document.getElementById('my_modal_5').showModal()} type="text" placeholder='Write A Message For Me ' className='w-full border-none bg-transparent p-4 pl-6 text-center text-sm placeholder:text-text/50 focus:border-none focus:ring-0 sm:text-left md:text-base' />
-                                <button className='bg-black rounded-xl py-2 px-8 whitespace-nowrap font-bold text-white hover:bg-[#c7e565] hover:text-black'>Send Messagge</button>
+                                <button className='bg-[#0B1215] rounded-xl py-2 px-8 whitespace-nowrap font-bold text-white hover:bg-[#c7e565] hover:text-black'>Send Messagge</button>
                             </form>
                             {/* Open the modal using document.getElementById('ID').showModal() method */}
                             <dialog id="my_modal_5" className="modal modal-middle sm:modal-middle">
                                 <div className="rounded-md px-2 w-[100%] md:w-[40rem] lg:w-[40rem]">
-                                    <div className='search p-4 bg-white rounded-t-sm'>
+                                    <div className='search p-4 bg-white rounded-t-md'>
                                         <label className="input input-bordered flex items-center gap-2 ">
                                             <input type="text" className="grow" placeholder="Search" />
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                                         </label>
                                     </div>
-                                    <div className='p-4 bg-base-200 rounded-b-md'>
+                                    <div className='p-4 bg-base-200'>
                                         <p className="py-9 text-center bg-base-200">Type Something To Search</p>
                                     </div>
                                     <div className='hidden md:block'>

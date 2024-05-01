@@ -8,9 +8,6 @@ function App() {
 
     <>
       <Routing />
-      <Navbar />
-      <Hero/>
-
     </>
 
   )
